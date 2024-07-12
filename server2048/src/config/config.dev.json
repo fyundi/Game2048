@@ -1,0 +1,12 @@
+{
+    "mongoDbUri": "mongodb://localhost:27017/Game2048",
+    "jwtSecretKey": "your_dev_secret_key_here",
+    "jwtExpiresIn" : "24h",
+    "httpPort": 8199,
+    "wsPort": 4263,
+    "domain": "localhost",
+    "endpoints": {
+        "login": "/auth/login",
+        "register": "/auth/register"
+    }
+}
